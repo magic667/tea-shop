@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "积分明细",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}

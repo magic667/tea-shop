@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-127632e4 {
+  background-color: #f6f6f6;
+}
+.navbar.data-v-127632e4 {
+  display: flex;
+  height: calc(44px + 25px);
+  background-color: #FFFFFF;
+}
+.navbar .talk-btn.data-v-127632e4 {
+  display: flex;
+  height: 32px;
+  padding: 0 20rpx;
+  margin-left: 10px;
+  margin-top: 26px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rem !important;
+  font-size: 24rpx !important;
+}
+.navbar .talk-btn image.data-v-127632e4 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.tabbar.data-v-127632e4 {
+  display: flex;
+  height: 100rpx;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+.tabbar .item.data-v-127632e4 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 32rpx;
+  font-weight: 400 !important;
+  color: #999;
+}
+.tabbar .item.active.data-v-127632e4 {
+  color: #343434;
+  border-bottom: 4rpx solid #343434;
+}
+.swiper.data-v-127632e4 {
+  width: 100%;
+  height: calc(100vh - 44px - 25px - 110rpx);
+}
+.no-order-content.data-v-127632e4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-order-content image.data-v-127632e4 {
+  width: 300rpx;
+  height: 300rpx;
+  margin-bottom: 50rpx;
+}
+.no-order-content .tips.data-v-127632e4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70rpx;
+  line-height: 1.2rem !important;
+  color: #999;
+}
+.no-order-content navigator.data-v-127632e4 {
+  width: 50%;
+}
+.history-order.data-v-127632e4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.history-order .menu.data-v-127632e4 {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 18rpx 30rpx;
+  align-items: center;
+  font-size: 26rpx;
+  color: #666;
+  z-index: 10;
+}
+.history-order .menu .item.data-v-127632e4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14rpx 30rpx;
+}
+.history-order .menu .item image.data-v-127632e4 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.history-order .menu .item.active.data-v-127632e4 {
+  background-color: #ffffff;
+  color: #DBA871;
+}
+.history-order .history-order-swiper.data-v-127632e4 {
+  width: 100%;
+  height: 100%;
+}
+.orders-scroll.data-v-127632e4 {
+  width: 100%;
+  height: 100%;
+  padding-top: 104rpx;
+}
+.order-list.data-v-127632e4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.order-list .order.data-v-127632e4 {
+  padding: 30rpx 40rpx;
+  margin-bottom: 18rpx;
+  background-color: #ffffff;
+}
+.order-list .order .header.data-v-127632e4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-list .order .header .status.data-v-127632e4 {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  color: #666;
+}
+.order-list .order .header .status image.data-v-127632e4 {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.order-list .order .images.data-v-127632e4 {
+  display: flex;
+  padding: 30rpx 0;
+}
+.order-list .order .images image.data-v-127632e4 {
+  flex-shrink: 0;
+  width: 150rpx;
+  height: 112.5rpx;
+}
+.info.data-v-127632e4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.info .left.data-v-127632e4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 26rpx;
+  color: #666;
+}
+.info .right.data-v-127632e4 {
+  font-size: 32rpx;
+  color: #666;
+}
+.action.data-v-127632e4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.action button.data-v-127632e4 {
+  margin-left: 30rpx;
+  font-size: 24rpx;
+}
+.store-order-wrapper.data-v-127632e4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3rem !important;
+  font-size: 26rpx;
+  color: #999;
+}
+.store-order-wrapper image.data-v-127632e4 {
+  width: 400rpx;
+  height: 333rpx;
+  margin-bottom: 40rpx;
+}
+

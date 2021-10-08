@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "任务中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}
